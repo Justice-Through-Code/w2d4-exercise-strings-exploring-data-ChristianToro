@@ -70,11 +70,14 @@ def favorite_bake():  # User Input/Type conversion
     # 3.4 Uncomment the print statements below, and get them to run WITHOUT changing the content--
     # HINTS: 
     # What's missing from the first print statement to allow us to use a variable inside a string?
+   
     #we are missing the 'f' in front the the statement to embed the baked_good variable
+   
     # Use `type conversion` to fix the second one
+    
     #we need to convert frequency to {int(frequency)}
     
     print('Ooooh, {baked_good}s are delicious!')
     print(f'We recommend you eat {baked_good}s at least {frequency * 2} times a month!')
     
-favorite_bake()
+#favorite_bake()
